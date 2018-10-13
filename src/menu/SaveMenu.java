@@ -46,7 +46,7 @@ public class SaveMenu extends Menu {
 				break;
 			}
 		}
-		Game.getInstance().setCurMenu(MenuID.MAIN_MENU);
+		MenuMgr.getInstance().setCurMenu(MenuID.MAIN_MENU);
 		return true;
 	}
 	

@@ -7,6 +7,7 @@ import game.Game;
 import game.Input;
 import map.Map;
 import map.MapDirector;
+import map.MapMgr;
 
 public class MainMenu extends Menu{
 
@@ -29,19 +30,19 @@ public class MainMenu extends Menu{
 		int choice = Input.in.nextInt();
 		switch(choice) {
 			case 1:{
-				Game.getInstance().setCurMenu(MenuID.PLAYERS_MENU);
+				MenuMgr.getInstance().setCurMenu(MenuID.PLAYERS_MENU);
 				break;
 			}
 			case 2:{
-				Game.getInstance().setCurMenu(MenuID.LOAD_MENU);
+				MenuMgr.getInstance().setCurMenu(MenuID.LOAD_MENU);
 				break;
 			}
 			case 3:{
-				Game.getInstance().setCurMenu(MenuID.SAVE_MENU);
+				MenuMgr.getInstance().setCurMenu(MenuID.SAVE_MENU);
 				break;
 			}
 			case 4:{
-				Game.getInstance().setCurMenu(MenuID.OPTION_MENU);
+				MenuMgr.getInstance().setCurMenu(MenuID.OPTION_MENU);
 				break;
 			}
 			case 5:{
@@ -50,15 +51,15 @@ public class MainMenu extends Menu{
 				//new Map().showMap(new MapFactory());
 				
 				//new Map().showMap(new MapDirector());
-				
-				Game.getInstance().getCurMap().showMap();
+
+				MapMgr.getInstance().getCurMap().showMap();
 				
 				break;
 			}
 			case 6:{
 				BlockManager.getInstance().setPrototypes(BlockID.MONEYBLOCK, new EBlock());
 				BlockManager.getInstance().setPrototypes(BlockID.BARBLOCK, new FBlock());
-				Game.getInstance().createMap();
+				MapMgr.getInstance().createMap();
 				break;
 			}
 			case 0:{

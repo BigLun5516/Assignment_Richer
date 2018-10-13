@@ -19,15 +19,15 @@ public class OptionMenu extends Menu {
 		int choice = Input.in.nextInt();
 		switch(choice) {
 			case 1:{
-				Game.getInstance().setCurMenu(MenuID.VOLUM_MENU);
+				MenuMgr.getInstance().setCurMenu(MenuID.VOLUM_MENU);
 				break;
 			}
 			case 2:{
-				Game.getInstance().setCurMenu(MenuID.RESOLUTION_MENU);
+				MenuMgr.getInstance().setCurMenu(MenuID.RESOLUTION_MENU);
 				break;
 			}
 			case 0:{
-				Game.getInstance().setCurMenu(MenuID.MAIN_MENU);
+				MenuMgr.getInstance().setCurMenu(MenuID.MAIN_MENU);
 				break;
 			}
 		}

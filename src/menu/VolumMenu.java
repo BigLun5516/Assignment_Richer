@@ -17,7 +17,7 @@ public class VolumMenu extends Menu{
 		int volum = Input.in.nextInt();
 		Game.getInstance().setting.setVolum(volum);
 		System.out.println("set volum to " + volum);
-		Game.getInstance().setCurMenu(MenuID.OPTION_MENU);
+		MenuMgr.getInstance().setCurMenu(MenuID.OPTION_MENU);
 		return true;
 	}
 

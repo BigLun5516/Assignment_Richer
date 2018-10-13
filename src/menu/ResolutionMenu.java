@@ -34,7 +34,7 @@ public class ResolutionMenu extends Menu {
 		 		break;
 		 	}
 		}
-		Game.getInstance().setCurMenu(MenuID.OPTION_MENU);
+		MenuMgr.getInstance().setCurMenu(MenuID.OPTION_MENU);
 		return true;
 	}
 

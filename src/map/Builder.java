@@ -10,7 +10,6 @@ public class Builder {
 	///使用原型方法
 	public Block buildBlock(int blockID) {
 		return BlockManager.getInstance().cloneBlock(blockID);
-
 	}
 	
 

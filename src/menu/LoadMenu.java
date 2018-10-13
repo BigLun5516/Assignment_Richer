@@ -20,34 +20,33 @@ public class LoadMenu extends Menu {
 	@Override
 	public boolean doChoice() {
 		int choice = Input.in.nextInt();
-		switch(choice) {
-			case 1:{
-				System.out.println("Loading record with ID = "+choice);
+		switch (choice) {
+			case 1: {
+				System.out.println("Loading record with ID = " + choice);
 				break;
 			}
-			case 2:{
-				System.out.println("Loading record with ID = "+choice);
+			case 2: {
+				System.out.println("Loading record with ID = " + choice);
 				break;
 			}
-			case 3:{
-				System.out.println("Loading record with ID = "+choice);
+			case 3: {
+				System.out.println("Loading record with ID = " + choice);
 				break;
 			}
-			case 4:{
-				System.out.println("Loading record with ID = "+choice);
+			case 4: {
+				System.out.println("Loading record with ID = " + choice);
 				break;
 			}
-			case 5:{
-				System.out.println("Loading record with ID = "+choice);
+			case 5: {
+				System.out.println("Loading record with ID = " + choice);
 				break;
 			}
-			case 0:{
-				
+			case 0: {
+
 				break;
 			}
 		}
-		Game.getInstance().setCurMenu(MenuID.MAIN_MENU);
+		MenuMgr.getInstance().setCurMenu(MenuID.MAIN_MENU);
 		return true;
 	}
-	
 }

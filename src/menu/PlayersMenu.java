@@ -74,7 +74,7 @@ public class PlayersMenu extends Menu {
 				break;
 			}
 		}
-		Game.getInstance().setCurMenu(MenuID.MAIN_MENU);
+		MenuMgr.getInstance().setCurMenu(MenuID.MAIN_MENU);
 		return true;
 	}
 
