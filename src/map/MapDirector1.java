@@ -1,7 +1,7 @@
 package map;
 
 import block.Block;
-import block.BlockID;
+import global.BlockID;
 
 
 public class MapDirector1 extends MapDirector{

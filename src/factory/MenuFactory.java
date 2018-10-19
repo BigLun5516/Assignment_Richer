@@ -3,7 +3,7 @@ package factory;
 import menu.LoadMenu;
 import menu.MainMenu;
 import menu.Menu;
-import menu.MenuID;
+import global.MenuID;
 import menu.OptionMenu;
 import menu.PlayersMenu;
 import menu.ResolutionMenu;

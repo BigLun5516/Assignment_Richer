@@ -1,12 +1,10 @@
 package menu;
-import block.BlockID;
+import global.BlockID;
 import block.BlockManager;
 import block.EBlock;
 import block.FBlock;
-import game.Game;
 import game.Input;
-import map.Map;
-import map.MapDirector;
+import global.MenuID;
 import map.MapMgr;
 
 public class MainMenu extends Menu{

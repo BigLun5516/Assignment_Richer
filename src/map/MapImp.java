@@ -12,7 +12,11 @@ public abstract class MapImp {
         blocks.add(block);
     }
     public Block getBlock(int index){
-        return blocks.get(index);
+        if (index >= 0) {
+            return blocks.get(index);
+        } else {
+            return null;
+        }
     }
     public Block getBlockById(int id){
         for (int i = 0; i < blocks.size(); i++) {

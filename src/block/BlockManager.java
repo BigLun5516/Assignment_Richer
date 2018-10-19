@@ -1,5 +1,7 @@
 package block;
 
+import global.BlockID;
+
 public class BlockManager {
 	static public BlockManager getInstance(){
 		if(blockManager == null){

@@ -1,6 +1,6 @@
 package menu;
-import game.Game;
 import game.Input;
+import global.MenuID;
 
 public class LoadMenu extends Menu {
 

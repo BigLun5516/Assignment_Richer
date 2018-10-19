@@ -1,6 +1,7 @@
 package menu;
 import game.Game;
 import game.Input;
+import global.MenuID;
 
 public class PlayersMenu extends Menu {
 

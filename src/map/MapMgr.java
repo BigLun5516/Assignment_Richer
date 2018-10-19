@@ -25,7 +25,7 @@ public class MapMgr {
     private MapDirector mapDirector;
     private  MapMgr(){
 //        mapDirector = new MapDirector1(new Builder());
-        mapDirector = new MapDirector2(new Builder());
+        mapDirector = new MapDirector2(new LinkedBuilder());
         createMap();
     }
 }

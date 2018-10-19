@@ -2,6 +2,7 @@ package menu;
 
 import factory.AbstractMenuFactory;
 import factory.MenuFactory;
+import global.MenuID;
 
 public class MenuMgr {
 	static public MenuMgr getInstance() {

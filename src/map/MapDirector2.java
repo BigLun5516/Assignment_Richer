@@ -1,7 +1,9 @@
 package map;
 
 import block.Block;
-import block.BlockID;
+import block.LinkedBlock;
+import global.DirID;
+import sun.plugin.com.AmbientProperty;
 
 public class MapDirector2 extends MapDirector {
     public MapDirector2(Builder builder){
@@ -35,15 +37,22 @@ public class MapDirector2 extends MapDirector {
                 {2, 22, 4, 6, 21, 23, 0, 0},
                 {2, 23, 4, 7, 22, 0, 0, 0}
         } ;
+
         for (int i = 0; i < 23; i++) {
-            Block temp = builder.buildBlock(layout[i][0]);
-            temp.setId(layout[i][1]);
+            LinkedBlock temp = (LinkedBlock) builder.buildBlock(layout[i][0]);
             temp.setPosition(layout[i][2], layout[i][3]);
-            temp.setArround(layout[i][4], layout[i][5], layout[i][6], layout[i][7]);
+            temp.setId(layout[i][1]);
             aMap.addBlock(temp);
+        }
+
+        for (int i = 0; i < 23; i++) {
+            LinkedBlock temp = (LinkedBlock) aMap.getBlock(i);
+            temp.setNeighbor(DirID.DIR_LEFT, aMap.getBlock(layout[i][4] - 1));
+            temp.setNeighbor(DirID.DIR_RIGHT, aMap.getBlock(layout[i][5] - 1));
+            temp.setNeighbor(DirID.DIR_UP, aMap.getBlock(layout[i][6] - 1));
+            temp.setNeighbor(DirID.DIR_DOWN, aMap.getBlock(layout[i][7] - 1));
         }
         map = aMap;
     }
-
 
 }

@@ -1,8 +1,5 @@
 package map;
 
-import block.Block;
-import block.BlockID;
-
 
 public abstract class MapDirector {
 	public abstract void createMap();

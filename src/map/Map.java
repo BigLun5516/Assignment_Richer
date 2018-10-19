@@ -1,11 +1,6 @@
 package map;
 
 import block.Block;
-import block.BlockID;
-import factory.MapFactory;
-import jdk.nashorn.internal.ir.BlockStatement;
-
-import java.util.Vector;
 
 public class Map {
 	public Map(MapImp mapImp){

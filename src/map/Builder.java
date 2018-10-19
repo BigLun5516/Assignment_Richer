@@ -11,6 +11,6 @@ public class Builder {
 	public Block buildBlock(int blockID) {
 		return BlockManager.getInstance().cloneBlock(blockID);
 	}
-	
 
 }
+
