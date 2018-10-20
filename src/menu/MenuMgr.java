@@ -1,7 +1,5 @@
 package menu;
 
-import factory.AbstractMenuFactory;
-import factory.MenuFactory;
 import global.MenuID;
 
 public class MenuMgr {
@@ -24,28 +22,26 @@ public class MenuMgr {
 		return menuPool[menuID];
 	}
 	public void setCurMenu(int menuID) {
-		setAbsMenuFactory(new MenuFactory());
 		curMenu = getMenu(menuID);
 	}
 	public Menu getCurMenu(){
 		return curMenu;
 	}
 
-	static private MenuMgr instance = null;
-	private Menu menuPool[];
-	private AbstractMenuFactory absMenuFactory;
-	private Menu curMenu;
 	private MenuMgr() {
 		menuPool = new Menu[MenuID.MENU_COUNT];
 		for(int i=0;i<MenuID.MENU_COUNT;i++) {
 			menuPool[i] = null;
 		}
+		absMenuFactory = new MenuFactory();
 		setCurMenu(MenuID.MAIN_MENU);
+
 	}
 
-	
-
-
+	private Menu curMenu;
+	private Menu menuPool[];
+	private AbstractMenuFactory absMenuFactory;
+	static private MenuMgr instance = null;
 
 
 }

@@ -1,9 +1,10 @@
 package map;
 
 import block.Block;
+import outdevice.OutDevice;
 
 public class MapImp1 extends MapImp{
-    public void showMap(){
+    public void showMap(OutDevice outDevice){
         int rowMax = 0;
         int colMax = 0;
         for (int i = 0; i < blocks.size(); i++) {
@@ -31,9 +32,11 @@ public class MapImp1 extends MapImp{
 
         for (int i = 0; i < rowMax + 1; i++) {
             for (int j = 0; j < colMax + 1; j++) {
-                System.out.print(blocksMap[i][j]);
+                outDevice.draw(blocksMap[i][j]);
             }
-            System.out.print("\n");
+            outDevice.draw("\n");
         }
     }
+
+
 }

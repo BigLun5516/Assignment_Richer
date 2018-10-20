@@ -1,6 +1,7 @@
 package map;
 
 import block.Block;
+import outdevice.OutDevice;
 
 public class Map {
 	public Map(MapImp mapImp){
@@ -12,8 +13,8 @@ public class Map {
 	public Block getBlock(int index){
 		return mapImp.getBlock(index);
 	}
-	public  void showMap(){
-		mapImp.showMap();
+	public  void showMap(OutDevice outDevice){
+		mapImp.showMap(outDevice);
 	}
 
 	private  MapImp mapImp;

@@ -2,22 +2,22 @@ package menu;
 import game.Game;
 import game.Input;
 import global.MenuID;
+import outdevice.OutDevice;
 
 public class ResolutionMenu extends Menu {
 
 	@Override
-	public void show() {
-		System.out.println("\n*********Set resolution**************");
-		System.out.println("now is " + Game.getInstance().setting.getResolution() + "\n");
-		System.out.println("1.640*320");
-		System.out.println("2.800*600");
-		System.out.println("3.1024*768");
+	public void show(OutDevice outDevice) {
+		outDevice.drawLn("\n*********Set resolution**************");
+		outDevice.drawLn("now is " + Game.getInstance().setting.getResolution() + "\n");
+		outDevice.drawLn("1.640*320");
+		outDevice.drawLn("2.800*600");
+		outDevice.drawLn("3.1024*768");
 
 	}
 
 	@Override
-	public boolean doChoice() {
-		int choice = Input.in.nextInt();
+	public boolean doChoice(int choice) {
 		switch(choice) {
 		 	case 1:{
 		 		Game.getInstance().setting.setResolution("640*320");

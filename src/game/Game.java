@@ -1,11 +1,12 @@
 package game;
-import menu.MenuMgr;
+import menu.*;
 
 /*
  * 作者：李钦伦
  * 学号：551651119
  * 时间：2018.9.7
  */
+
 public class Game {
 	public Setting setting;
 	public static Game getInstance() {
@@ -20,8 +21,14 @@ public class Game {
 	public void run() {
 		boolean notOver = true ;
 		while(notOver) {
-			
-			notOver = MenuMgr.getInstance().getCurMenu().process();
+			Menu menu = MenuMgr.getInstance().getCurMenu();
+			if(MainMenu.class.isInstance(menu)){
+				notOver = new MenuDecoratorWithMusic(
+						new MenuDecoratorWithHead(menu)
+				).process();
+			} else {
+				notOver = new MenuDecoratorWithMusic(menu).process();
+			}
 		}
 	}
 	public void term() {

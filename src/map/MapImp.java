@@ -1,13 +1,14 @@
 package map;
 
 import block.Block;
+import outdevice.OutDevice;
 
 import java.util.Vector;
 
 public abstract class MapImp {
     public MapImp(){
     }
-    public abstract void showMap();
+    public abstract void showMap(OutDevice outDevice);
     public void addBlock(Block block){
         blocks.add(block);
     }

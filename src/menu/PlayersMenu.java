@@ -2,33 +2,30 @@ package menu;
 import game.Game;
 import game.Input;
 import global.MenuID;
+import outdevice.OutDevice;
 
 public class PlayersMenu extends Menu {
 
 	@Override
-	public void show() {
-	
-		System.out.println("\n*************Set number of players***************");
-		System.out.println("now is " + Game.getInstance().setting.getPlayers()+"\n");
-		System.out.println("1.default = 2");
-		System.out.println("2.2");
-		System.out.println("3.3");
-		System.out.println("4.4");
-		System.out.println("5.5");
-		System.out.println("6.6");
-		System.out.println("7.7");
-		System.out.println("8.8");
-		System.out.println("0.Back");
-		System.out.println("Your selected:");
+	public void show(OutDevice outDevice) {
+
+		outDevice.drawLn("\n*************Set number of players***************");
+		outDevice.drawLn("now is " + Game.getInstance().setting.getPlayers()+"\n");
+		outDevice.drawLn("1.default = 2");
+		outDevice.drawLn("2.2");
+		outDevice.drawLn("3.3");
+		outDevice.drawLn("4.4");
+		outDevice.drawLn("5.5");
+		outDevice.drawLn("6.6");
+		outDevice.drawLn("7.7");
+		outDevice.drawLn("8.8");
+		outDevice.drawLn("0.Back");
+		outDevice.drawLn("Your selected:");
 
 	}
 
 	@Override
-	public boolean doChoice() {
-		
-		int choice = Input.in.nextInt();
-		
-		
+	public boolean doChoice(int choice) {
 		switch(choice) {
 			case 1:{
 				Game.getInstance().setting.setPlayers(2);
