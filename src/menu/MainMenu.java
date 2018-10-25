@@ -4,11 +4,9 @@ import global.BlockID;
 import block.BlockManager;
 import block.EBlock;
 import block.FBlock;
-import game.Input;
 import global.MenuID;
 import map.MapMgr;
 import outdevice.OutDevice;
-import outdevice.StreamDevice;
 
 public class MainMenu extends Menu{
 
@@ -41,7 +39,7 @@ public class MainMenu extends Menu{
 				break;
 			}
 			case 4:{
-				PlayerMgr.getInstance().start();
+				PlayerMgr.getInstance().play(true);
 				break;
 			}
 			case 5:{

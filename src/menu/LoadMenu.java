@@ -1,6 +1,5 @@
 package menu;
 import Player.PlayerMgr;
-import game.Input;
 import global.MenuID;
 import outdevice.OutDevice;
 
@@ -23,28 +22,20 @@ public class LoadMenu extends Menu {
 	public boolean doChoice(int choice) {
 		switch (choice) {
 			case 1: {
-				System.out.println("Loading record with ID = " + choice);
-				PlayerMgr.getInstance().start();
-				break;
+
 			}
 			case 2: {
-				System.out.println("Loading record with ID = " + choice);
-				MenuMgr.getInstance().getMenu(MenuID.MAIN_MENU).doChoice(4);
-				break;
+
 			}
 			case 3: {
-				System.out.println("Loading record with ID = " + choice);
-				MenuMgr.getInstance().getMenu(MenuID.MAIN_MENU).doChoice(4);
-				break;
+
 			}
 			case 4: {
-				System.out.println("Loading record with ID = " + choice);
-				MenuMgr.getInstance().getMenu(MenuID.MAIN_MENU).doChoice(4);
-				break;
+
 			}
 			case 5: {
 				System.out.println("Loading record with ID = " + choice);
-				MenuMgr.getInstance().getMenu(MenuID.MAIN_MENU).doChoice(4);
+				PlayerMgr.getInstance().play(true);
 				break;
 			}
 			case 0: {

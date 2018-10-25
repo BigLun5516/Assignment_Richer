@@ -1,5 +1,5 @@
 package Player;
 
 public abstract class Player {
-    public abstract boolean play();
+    public abstract boolean play(boolean waitChoose);
 }

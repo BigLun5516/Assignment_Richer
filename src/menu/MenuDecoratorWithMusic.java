@@ -18,8 +18,8 @@ public class MenuDecoratorWithMusic extends MenuDecorator {
 
     @Override
     public void show(OutDevice outDevice) {
-        System.out.println("\nplaying music\n");
+//        System.out.println("\nplaying music\n");
         super.show(outDevice);
-        System.out.println("\nstop music\n");
+//        System.out.println("\nstop music\n");
     }
 }

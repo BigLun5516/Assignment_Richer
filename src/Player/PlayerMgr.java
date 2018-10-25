@@ -1,5 +1,9 @@
 package Player;
 
+import global.MenuID;
+import menu.Menu;
+import menu.MenuMgr;
+
 public class PlayerMgr {
     static public PlayerMgr getInstance(){
         if(playerMgr == null){
@@ -8,11 +12,15 @@ public class PlayerMgr {
         return playerMgr;
     }
 
-    public void start(){
-        int turn = 0;
-        while (players[turn].play()){
+    public void play(boolean waitChoose){
+        while (players[turn].play(waitChoose)) {
+            waitChoose = true;
             turn = (turn + 1) % 3;
         }
+    }
+
+    public void setTurn(int turn){
+        this.turn = turn;
     }
 
     private PlayerMgr(){
@@ -24,4 +32,5 @@ public class PlayerMgr {
 
     static private  PlayerMgr playerMgr = null;
     private Player[] players;
+    private int turn = 0;
 }

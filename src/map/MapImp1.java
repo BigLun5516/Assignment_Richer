@@ -5,37 +5,23 @@ import outdevice.OutDevice;
 
 public class MapImp1 extends MapImp{
     public void showMap(OutDevice outDevice){
-        int rowMax = 0;
-        int colMax = 0;
-        for (int i = 0; i < blocks.size(); i++) {
-            if(blocks.get(i).getRow() > rowMax){
-                rowMax = blocks.get(i).getRow();
+        int row = 0, col = 0;
+        int r, c;
+        for(Block block : blocks){
+            r = block.getRow();
+            c = block.getCol();
+            for (int i = row; i < r; i++) {
+                outDevice.draw("\n");
+                col = 0;
             }
-            if(blocks.get(i).getCol() > colMax){
-                colMax = blocks.get(i).getCol();
+            for (int i = col; i < c; i++) {
+                outDevice.draw(" ");
             }
+            outDevice.draw(block.name());
+            row = r;
+            col = c + 1;
         }
-        // 初始化
-        String blocksMap[][] = new String[rowMax + 1][colMax + 1];
-        for (int i = 0; i < rowMax + 1; i++) {
-            for (int j = 0; j < colMax +1; j++) {
-                blocksMap[i][j] = " ";
-            }
-        }
-
-        // 填值
-        for (int i = 0; i < blocks.size(); i++) {
-            Block tempBlock = blocks.get(i);
-            blocksMap[tempBlock.getRow()][tempBlock.getCol()]
-                    = tempBlock.name();
-        }
-
-        for (int i = 0; i < rowMax + 1; i++) {
-            for (int j = 0; j < colMax + 1; j++) {
-                outDevice.draw(blocksMap[i][j]);
-            }
-            outDevice.draw("\n");
-        }
+        outDevice.draw("\n\n");
     }
 
 
