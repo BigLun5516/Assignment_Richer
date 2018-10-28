@@ -1,8 +1,10 @@
-package Player;
+package player;
 
-import global.MenuID;
-import menu.Menu;
-import menu.MenuMgr;
+import block.Block;
+import iterator.JavaIterator;
+
+import javax.xml.bind.ValidationException;
+import java.util.Vector;
 
 public class PlayerMgr {
     static public PlayerMgr getInstance(){
@@ -12,25 +14,50 @@ public class PlayerMgr {
         return playerMgr;
     }
 
+    public void init(){
+        // 重置位置 ID
+        for (int i = 0; i < players.size(); i++) {
+            players.get(i).resetPosition();
+            players.get(i).setId(i);
+        }
+
+        // 从第一个人开始
+        turn = 0;
+    }
+
     public void play(boolean waitChoose){
-        while (players[turn].play(waitChoose)) {
+        while (players.get(turn).play(waitChoose)) {
             waitChoose = true;
-            turn = (turn + 1) % 3;
+            turn = (turn + 1) % 2;
         }
     }
 
-    public void setTurn(int turn){
-        this.turn = turn;
+    public Block getPlayerPosition(int index){
+        return players.get(index).getPosition();
+    }
+
+
+
+    public Player getCurrentPlayer(){
+        return players.get(turn);
     }
 
     private PlayerMgr(){
-        players = new Player[3]; //此处暂时写死了，以后应可根据用户选择改变
-        players[0] = new AutoPlayer();
-        players[1] = new HumanPlayer();
-        players[2] = new AutoPlayer();
+        players = new Vector<>();
+        players.add(new HumanPlayer());
+        players.add(new AutoPlayer());
+
     }
 
     static private  PlayerMgr playerMgr = null;
-    private Player[] players;
-    private int turn = 0;
+   private Vector<Player> players;
+   private int turn = 0;
+
+    public Vector<Player> getPlayers(){
+        return players;
+    }
+
+    public int getPlayerNum(){
+        return players.size();
+    }
 }

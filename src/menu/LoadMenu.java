@@ -1,5 +1,5 @@
 package menu;
-import Player.PlayerMgr;
+import player.PlayerMgr;
 import global.MenuID;
 import outdevice.OutDevice;
 
@@ -35,6 +35,7 @@ public class LoadMenu extends Menu {
 			}
 			case 5: {
 				System.out.println("Loading record with ID = " + choice);
+				PlayerMgr.getInstance().init();
 				PlayerMgr.getInstance().play(true);
 				break;
 			}

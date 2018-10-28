@@ -3,6 +3,8 @@ package map;
 import block.Block;
 import global.BlockID;
 
+import java.util.concurrent.BlockingDeque;
+
 
 public class MapDirector1 extends MapDirector{
     public MapDirector1(Builder builder){
@@ -23,6 +25,7 @@ public class MapDirector1 extends MapDirector{
             for(int c = 0; c < BlockID.BLOCK_COLS; c++){
                 if (layout[r][c] != 0){
                     Block temp = builder.buildBlock(layout[r][c]);
+                    temp.setId(r * BlockID.BLOCK_ROWS + c + 1);
                     temp.setPosition(r, c);
                     aMap.addBlock(temp);
                 }

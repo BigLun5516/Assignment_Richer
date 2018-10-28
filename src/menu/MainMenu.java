@@ -1,5 +1,5 @@
 package menu;
-import Player.PlayerMgr;
+import player.PlayerMgr;
 import global.BlockID;
 import block.BlockManager;
 import block.EBlock;
@@ -39,6 +39,7 @@ public class MainMenu extends Menu{
 				break;
 			}
 			case 4:{
+				PlayerMgr.getInstance().init();
 				PlayerMgr.getInstance().play(true);
 				break;
 			}

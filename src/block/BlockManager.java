@@ -28,7 +28,8 @@ public class BlockManager {
 	
 	public Block cloneBlock(int id) {
 		if(id > BlockID.NONEBLOCK && id < BlockID.BLOCK_COUNT){
-			return prototypes[id].clone();
+			Block temp = prototypes[id].clone();
+			return temp;
 		}
 		return null;
 	}

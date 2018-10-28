@@ -1,16 +1,14 @@
 package map;
 
-import block.Block;
 import block.LinkedBlock;
 import global.DirID;
-import sun.plugin.com.AmbientProperty;
 
 public class MapDirector2 extends MapDirector {
     public MapDirector2(Builder builder){
         super.builder = builder;
     }
     public void createMap(){
-        Map aMap = new Map(new MapImp1());
+        Map aMap = new Map(new MapImpWithPlayer());
         // 类型	序号	行	列	LEFT	RIGHT	UP	DOWN
         int layout[][] = {
                 {1, 1, 0, 0, 0, 2, 0, 6},

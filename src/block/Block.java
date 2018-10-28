@@ -8,6 +8,11 @@ public abstract class Block {
 		col = c;
 	}
 
+	private int row;
+	private int col;
+	private int id;
+
+
 	public int getId() {
 		return id;
 	}
@@ -24,8 +29,4 @@ public abstract class Block {
 		return col;
 	}
 
-	private int row;
-	private int col;
-
-	private int id = 1;
 }
