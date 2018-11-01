@@ -43,19 +43,21 @@ public class PlayMenu extends Menu{
             }
             case 2:{
                 // ApplyRobCard
-                Vector<Player> alllayers = PlayerMgr.getInstance().getPlayers();
-                int playerNum = alllayers.size();
+                Vector<Player> allPlayers = PlayerMgr.getInstance().getPlayers();
+                int playerNum = allPlayers.size();
                 System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
                 int targetId = Input.in.nextInt();
-                if(targetId >= 0 && targetId < playerNum){
-                    PlayerMgr.getInstance().getCurrentPlayer().useProp(new RobCard(alllayers.get(targetId)));
+                if(targetId >= 0 && targetId
+                        < playerNum && !allPlayers.get(targetId).isOut()){
+                    PlayerMgr.getInstance().getCurrentPlayer().useProp(new RobCard(allPlayers.get(targetId)));
                 } else {
                     System.out.println("使用失败");
                 }
 
-                //test
-                System.out.println(alllayers.get(0).getMoney());
-                System.out.println(alllayers.get(1).getMoney());
+                //输出每个玩家金钱
+                for (int i = 0; i < playerNum; i++) {
+                    System.out.println("玩家" + i + " 的金币数：" + allPlayers.get(i).getMoney());
+                }
 
                 break;
             }
@@ -63,9 +65,12 @@ public class PlayMenu extends Menu{
                 // ApplyMeanCard
                 PlayerMgr.getInstance().getCurrentPlayer().useProp(new MeanCard());
 
-                //test
-                System.out.println(PlayerMgr.getInstance().getPlayers().get(0).getMoney());
-                System.out.println(PlayerMgr.getInstance().getPlayers().get(1).getMoney());
+                //输出每个玩家金钱
+                Vector<Player> allPlayers = PlayerMgr.getInstance().getPlayers();
+                int playerNum = allPlayers.size();
+                for (int i = 0; i < playerNum; i++) {
+                    System.out.println("玩家" + i + " 的金币数：" + allPlayers.get(i).getMoney());
+                }
 
                 break;
             }
@@ -75,7 +80,7 @@ public class PlayMenu extends Menu{
                 int playerNum = alllayers.size();
                 System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
                 int targetId = Input.in.nextInt();
-                if(targetId >= 0 && targetId < playerNum){
+                if(targetId >= 0 && targetId < playerNum && !alllayers.get(targetId).isOut()){
                     PlayerMgr.getInstance().getCurrentPlayer().useProp(new ReturnSpell(alllayers.get(targetId)));
                 } else {
                     System.out.println("使用失败");
@@ -88,7 +93,7 @@ public class PlayMenu extends Menu{
                 int playerNum = alllayers.size();
                 System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
                 int targetId = Input.in.nextInt();
-                if(targetId >= 0 && targetId < playerNum){
+                if(targetId >= 0 && targetId < playerNum && !alllayers.get(targetId).isOut()){
                     PlayerMgr.getInstance().getCurrentPlayer().useProp(new FlyCard(alllayers.get(targetId)));
                 } else {
                     System.out.println("使用失败");
@@ -101,7 +106,7 @@ public class PlayMenu extends Menu{
                 int playerNum = alllayers.size();
                 System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
                 int targetId = Input.in.nextInt();
-                if(targetId >= 0 && targetId < playerNum){
+                if(targetId >= 0 && targetId < playerNum && !alllayers.get(targetId).isOut()){
                     PlayerMgr.getInstance().getCurrentPlayer().useProp(new FreezeSpell(alllayers.get(targetId)));
                 } else {
                     System.out.println("使用失败");
@@ -114,7 +119,7 @@ public class PlayMenu extends Menu{
                 int playerNum = alllayers.size();
                 System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
                 int targetId = Input.in.nextInt();
-                if(targetId >= 0 && targetId < playerNum){
+                if(targetId >= 0 && targetId < playerNum && !alllayers.get(targetId).isOut()){
                     PlayerMgr.getInstance().getCurrentPlayer().useProp(new HurtSpell(alllayers.get(targetId)));
                 } else {
                     System.out.println("使用失败");
@@ -127,7 +132,7 @@ public class PlayMenu extends Menu{
                 int playerNum = alllayers.size();
                 System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
                 int targetId = Input.in.nextInt();
-                if(targetId >= 0 && targetId < playerNum){
+                if(targetId >= 0 && targetId < playerNum && !alllayers.get(targetId).isOut()){
                     PlayerMgr.getInstance().getCurrentPlayer().useProp(new LuckCard(alllayers.get(targetId)));
                 } else {
                     System.out.println("使用失败");
@@ -140,7 +145,7 @@ public class PlayMenu extends Menu{
                 int playerNum = alllayers.size();
                 System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
                 int targetId = Input.in.nextInt();
-                if(targetId >= 0 && targetId < playerNum){
+                if(targetId >= 0 && targetId < playerNum && !alllayers.get(targetId).isOut()){
                     PlayerMgr.getInstance().getCurrentPlayer().useProp(new ExFlyCard(alllayers.get(targetId)));
                 } else {
                     System.out.println("使用失败");
@@ -153,7 +158,7 @@ public class PlayMenu extends Menu{
                 int playerNum = alllayers.size();
                 System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
                 int targetId = Input.in.nextInt();
-                if(targetId >= 0 && targetId < playerNum){
+                if(targetId >= 0 && targetId < playerNum && !alllayers.get(targetId).isOut()){
                     PlayerMgr.getInstance().getCurrentPlayer().useProp(new SuperCard(alllayers.get(targetId)));
                 } else {
                     System.out.println("使用失败");

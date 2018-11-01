@@ -38,6 +38,9 @@ public class BlockManager {
 		prototypes[blockID] = block;
 	 }
 
+	 public Block getBlockPrototype(int index){
+		return prototypes[index];
+	 }
 	
 	
 	

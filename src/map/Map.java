@@ -13,8 +13,12 @@ public class Map {
 	public Block getBlock(int index){
 		return mapImp.getBlock(index);
 	}
+	public Block getBlockById(int id){ return mapImp.getBlockById(id); }
 	public  void showMap(OutDevice outDevice){
 		mapImp.showMap(outDevice);
+	}
+	public int getBlocksNum(){
+		return mapImp.getBlocksNum();
 	}
 
 	private  MapImp mapImp;

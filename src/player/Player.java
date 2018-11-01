@@ -28,11 +28,13 @@ public abstract class Player {
     protected Block position;
     protected Block lastPosition;
     protected MoveStrategy moveStrategy;
-    protected float money = 50;  // 经过moneyBlock 给50金币
-    protected float life = 100;  // 经过 tripBlock 减20金币 减20生命值
+    protected float money = 50;  // 初始金币
+    protected float life = 100;  // 初始生命值
     protected int moveDistance;
     protected int defaultMoveDistance;
     protected int tempMoveDistance;
+
+    protected boolean isOut = false;
 
     private int id;
     protected Vector<State> states = new Vector<>();
@@ -64,6 +66,11 @@ public abstract class Player {
     public Block getPosition(){
         return position;
     }
+
+    public void setPosition(Block position) {
+        this.position = position;
+    }
+
     public Block getLastPosition(){
         return lastPosition;
     }
@@ -111,5 +118,11 @@ public abstract class Player {
         this.id = id;
     }
 
+    public boolean isOut() {
+        return isOut;
+    }
 
+    public void setOut(boolean out) {
+        isOut = out;
+    }
 }

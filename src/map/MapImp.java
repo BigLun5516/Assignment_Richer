@@ -28,6 +28,10 @@ public abstract class MapImp {
         return null;
     }
 
+    public int getBlocksNum(){
+        return blocks.size();
+    }
+
     protected Vector<Block> blocks = new Vector<>();
 }
 
