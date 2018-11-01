@@ -1,11 +1,17 @@
 package block;
 
 import global.DirID;
+import player.Player;
 
 public class LinkedBlock extends Block {
     public LinkedBlock(Block block) {
         this.kernel = block.clone();
         neighbors = new Block[DirID.DIR_COUNT];
+    }
+
+    @Override
+    public void effect(Player me) throws Exception {
+        kernel.effect(me);
     }
 
     public String name() {

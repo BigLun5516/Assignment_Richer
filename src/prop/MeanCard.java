@@ -8,7 +8,7 @@ import java.util.Vector;
 public class MeanCard extends Card {
 
     @Override
-    public void excute(Player me) {
+    public void execute(Player me) {
         System.out.println("使用MeanCard");
         Vector<Player> players = PlayerMgr.getInstance().getPlayers();
         float allMoney = 0;

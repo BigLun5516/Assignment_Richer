@@ -8,7 +8,7 @@ public class RobCard extends Card {
     }
 
     @Override
-    public void excute(Player me) {
+    public void execute(Player me) {
         System.out.println("使用RobCard");
         float targetMoney = target.getMoney();
         float myMoney = me.getMoney();

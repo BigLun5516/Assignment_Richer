@@ -1,15 +1,12 @@
 package menu;
 
 
-import com.sun.glass.ui.Size;
 import game.Input;
 import global.MenuID;
 import outdevice.OutDevice;
 import player.Player;
 import player.PlayerMgr;
-import prop.MeanCard;
-import prop.ReturnSpell;
-import prop.RobCard;
+import prop.*;
 
 import java.util.Vector;
 
@@ -24,8 +21,14 @@ public class PlayMenu extends Menu{
         outDevice.drawLn("2. ApplyRobCard");
         outDevice.drawLn("3. ApplyMeanCard");
         outDevice.drawLn("4. ApplyReturnCard");
-        outDevice.drawLn("5. Load");
-        outDevice.drawLn("6. Save");
+        outDevice.drawLn("5. ApplyFlyCard");
+        outDevice.drawLn("6. ApplyFreezeSpell");
+        outDevice.drawLn("7. ApplyHurtSpell");
+        outDevice.drawLn("8. ApplyLuckCard");
+        outDevice.drawLn("9. ApplyExFlyCard");
+        outDevice.drawLn("10. ApplySuperCard");
+        outDevice.drawLn("11. Load");
+        outDevice.drawLn("12. Save");
         outDevice.drawLn("0. Back To MainMenu");
         outDevice.drawLn("   Your selected:");
     }
@@ -79,12 +82,90 @@ public class PlayMenu extends Menu{
                 }
                 break;
             }
-            case 5: {
+            case 5:{
+                // ApplyFlyCard
+                Vector<Player> alllayers = PlayerMgr.getInstance().getPlayers();
+                int playerNum = alllayers.size();
+                System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
+                int targetId = Input.in.nextInt();
+                if(targetId >= 0 && targetId < playerNum){
+                    PlayerMgr.getInstance().getCurrentPlayer().useProp(new FlyCard(alllayers.get(targetId)));
+                } else {
+                    System.out.println("使用失败");
+                }
+                break;
+            }
+            case 6:{
+                // ApplyFreezeSpell
+                Vector<Player> alllayers = PlayerMgr.getInstance().getPlayers();
+                int playerNum = alllayers.size();
+                System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
+                int targetId = Input.in.nextInt();
+                if(targetId >= 0 && targetId < playerNum){
+                    PlayerMgr.getInstance().getCurrentPlayer().useProp(new FreezeSpell(alllayers.get(targetId)));
+                } else {
+                    System.out.println("使用失败");
+                }
+                break;
+            }
+            case 7:{
+                // ApplyHurtSpell
+                Vector<Player> alllayers = PlayerMgr.getInstance().getPlayers();
+                int playerNum = alllayers.size();
+                System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
+                int targetId = Input.in.nextInt();
+                if(targetId >= 0 && targetId < playerNum){
+                    PlayerMgr.getInstance().getCurrentPlayer().useProp(new HurtSpell(alllayers.get(targetId)));
+                } else {
+                    System.out.println("使用失败");
+                }
+                break;
+            }
+            case 8:{
+                // ApplyLuckCard
+                Vector<Player> alllayers = PlayerMgr.getInstance().getPlayers();
+                int playerNum = alllayers.size();
+                System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
+                int targetId = Input.in.nextInt();
+                if(targetId >= 0 && targetId < playerNum){
+                    PlayerMgr.getInstance().getCurrentPlayer().useProp(new LuckCard(alllayers.get(targetId)));
+                } else {
+                    System.out.println("使用失败");
+                }
+                break;
+            }
+            case 9:{
+                // ApplyExFlyCard
+                Vector<Player> alllayers = PlayerMgr.getInstance().getPlayers();
+                int playerNum = alllayers.size();
+                System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
+                int targetId = Input.in.nextInt();
+                if(targetId >= 0 && targetId < playerNum){
+                    PlayerMgr.getInstance().getCurrentPlayer().useProp(new ExFlyCard(alllayers.get(targetId)));
+                } else {
+                    System.out.println("使用失败");
+                }
+                break;
+            }
+            case 10:{
+                // ApplySuperCard
+                Vector<Player> alllayers = PlayerMgr.getInstance().getPlayers();
+                int playerNum = alllayers.size();
+                System.out.println("请输入目标ID（0-" + (playerNum - 1) + ")");
+                int targetId = Input.in.nextInt();
+                if(targetId >= 0 && targetId < playerNum){
+                    PlayerMgr.getInstance().getCurrentPlayer().useProp(new SuperCard(alllayers.get(targetId)));
+                } else {
+                    System.out.println("使用失败");
+                }
+                break;
+            }
+            case 11: {
                 // Load
                 MenuMgr.getInstance().setCurMenu(MenuID.LOAD_MENU);
                 break;
             }
-            case 6: {
+            case 12: {
                 // Save
                 MenuMgr.getInstance().setCurMenu(MenuID.SAVE_MENU);
                 break;

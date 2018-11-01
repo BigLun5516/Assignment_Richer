@@ -1,17 +1,16 @@
 package prop;
 
 import player.Player;
+import prop.state.FlyCardState;
 
-
-public class ReturnSpell extends Spell {
-    public ReturnSpell(Player target){
+public class FlyCard extends Card {
+    public FlyCard(Player target){
         this.target = target;
     }
 
     @Override
     public void execute(Player me) {
-        System.out.println("使用ReturnSpell");
-        target.resetPosition();
+        target.addState(new FlyCardState());
     }
 
     private Player target;

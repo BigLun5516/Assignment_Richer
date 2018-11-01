@@ -3,6 +3,10 @@ package player;
 import block.Block;
 import map.MapMgr;
 import prop.Prop;
+import prop.state.State;
+
+import java.util.Iterator;
+import java.util.Vector;
 
 public abstract class Player {
 
@@ -18,7 +22,7 @@ public abstract class Player {
     }
 
     public void useProp(Prop prop){
-        prop.excute(this);
+        prop.execute(this);
     }
 
     protected Block position;
@@ -26,8 +30,35 @@ public abstract class Player {
     protected MoveStrategy moveStrategy;
     protected float money = 50;  // 经过moneyBlock 给50金币
     protected float life = 100;  // 经过 tripBlock 减20金币 减20生命值
-    protected float moveDistance;
+    protected int moveDistance;
+    protected int defaultMoveDistance;
+    protected int tempMoveDistance;
+
     private int id;
+    protected Vector<State> states = new Vector<>();
+
+    public void statesExecute(){
+        Iterator<State> it = states.iterator();
+        while(it.hasNext()){
+            State temp = it.next();
+            temp.execute(this);
+            if(temp.getDuration() == -1){
+                it.remove();
+            }
+        }
+    }
+
+    public void addState(State state){
+        states.add(state);
+    }
+
+    public void deleteAllStates(){
+        states.clear();
+    }
+
+    public Vector<State> getStates() {
+        return states;
+    }
 
     // get set
     public Block getPosition(){
@@ -52,12 +83,24 @@ public abstract class Player {
         this.life = life;
     }
 
-    public float getMoveDistance() {
+    public int getMoveDistance() {
         return moveDistance;
     }
 
-    public void setMoveDistance(float moveDistance) {
+    public void setMoveDistance(int moveDistance) {
         this.moveDistance = moveDistance;
+    }
+
+    public int getDefaultMoveDistance() {
+        return defaultMoveDistance;
+    }
+
+    public int getTempMoveDistance() {
+        return tempMoveDistance;
+    }
+
+    public void setTempMoveDistance(int tempMoveDistance) {
+        this.tempMoveDistance = tempMoveDistance;
     }
 
     public int getId() {
@@ -67,4 +110,6 @@ public abstract class Player {
     public void setId(int id) {
         this.id = id;
     }
+
+
 }

@@ -1,9 +1,7 @@
 package player;
 
 import block.Block;
-import iterator.JavaIterator;
 
-import javax.xml.bind.ValidationException;
 import java.util.Vector;
 
 public class PlayerMgr {
@@ -16,9 +14,14 @@ public class PlayerMgr {
 
     public void init(){
         // 重置位置 ID
+        // 删除玩家的所有状态
+        // 重置玩家生命、金钱
         for (int i = 0; i < players.size(); i++) {
             players.get(i).resetPosition();
             players.get(i).setId(i);
+            players.get(i).deleteAllStates();
+            players.get(i).setLife(100);
+            players.get(i).setMoney(50);
         }
 
         // 从第一个人开始

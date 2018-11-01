@@ -1,19 +1,15 @@
 package player;
 
 import block.Block;
-import block.LinkedBlock;
-import global.DirID;
 import global.MenuID;
 import map.MapMgr;
 import menu.MenuMgr;
 import outdevice.StreamDevice;
 
-import java.util.Random;
-import java.util.Vector;
-
 public class HumanPlayer extends Player {
     public HumanPlayer(){
         moveDistance = 3;
+        defaultMoveDistance = 3;
     }
 
     @Override
@@ -27,14 +23,28 @@ public class HumanPlayer extends Player {
         } else {
             // 玩家选择了Go
 
-            // 走三步
-            for (int j = 0; j < 3; j++) {
-                Block next = moveStrategy.move(this);
-                lastPosition = position;
-                position = next;
-            }
+            // State发挥作用
+            statesExecute();
 
+            tempMoveDistance = moveDistance;
+
+            // 走三步
+            try {
+                for (int j = 0; j < tempMoveDistance; j++) {
+                    Block next = moveStrategy.move(this);
+                    lastPosition = position;
+                    position = next;
+
+                    // 当前位置Block的效果
+                    position.effect(this);
+                }
+            } catch (Exception e) {
+            }
+            // 显示当前地图
             MapMgr.getInstance().getCurMap().showMap(streamDevice);
+            // 显示生命金钱属性
+            System.out.println("Life:" + life);
+            System.out.println("Money:" + money);
             return true;
         }
     }

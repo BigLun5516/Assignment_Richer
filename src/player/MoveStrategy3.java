@@ -2,11 +2,8 @@ package player;
 
 import block.Block;
 import block.LinkedBlock;
-import com.sun.org.apache.regexp.internal.REUtil;
 import global.DirID;
-import map.MapMgr;
 
-import java.util.EmptyStackException;
 import java.util.Random;
 import java.util.Vector;
 
@@ -75,7 +72,7 @@ public class MoveStrategy3 extends MoveStrategy {
                     if (randomRes <= 50) {
                         nextDir = (lastDir + 1) % 4;
                     } else {
-                        nextDir = (lastDir + 1) % 4;
+                        nextDir = (lastDir - 1) % 4;
                     }
                 }
             } else if (size == 2) {

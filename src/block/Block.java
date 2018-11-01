@@ -1,6 +1,9 @@
 package block;
 
+import player.Player;
+
 public abstract class Block {
+	public abstract void effect(Player me) throws Exception;
 	public  abstract String name();
 	public abstract Block clone();
 	public void setPosition(int r, int c){

@@ -1,6 +1,12 @@
 package block;
 
+import player.Player;
+
 public class EBlock extends Block {
+	@Override
+	public void effect(Player me) throws Exception {
+
+	}
 
 	@Override
 	public String name() {
