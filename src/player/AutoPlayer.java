@@ -5,11 +5,13 @@ import global.MenuID;
 import map.MapMgr;
 import menu.MenuMgr;
 import outdevice.StreamDevice;
+import player.Identity.Identity;
 
 public class AutoPlayer extends Player {
     public AutoPlayer(){
         moveDistance = 2;
         defaultMoveDistance = 2;
+
     }
 
 

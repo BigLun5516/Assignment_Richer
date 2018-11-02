@@ -1,6 +1,7 @@
 package prop;
 
 import player.Player;
+import prop.Vistor.ReturnSpellVistor;
 
 
 public class ReturnSpell extends Spell {
@@ -10,8 +11,7 @@ public class ReturnSpell extends Spell {
 
     @Override
     public void execute(Player me) {
-        System.out.println("使用ReturnSpell");
-        target.resetPosition();
+        target.getIdentity().accept(new ReturnSpellVistor(), me);
     }
 
     private Player target;

@@ -1,6 +1,8 @@
 package prop;
 
+import com.sun.media.jfxmediaimpl.platform.java.JavaPlatform;
 import player.Player;
+import prop.Vistor.SuperCardVisitor;
 import prop.state.SuperCardState;
 
 public class SuperCard extends Card {
@@ -10,7 +12,7 @@ public class SuperCard extends Card {
 
     @Override
     public void execute(Player player) {
-        target.addState(new SuperCardState());
+        target.getIdentity().accept(new SuperCardVisitor(), player);
     }
 
     private Player target;

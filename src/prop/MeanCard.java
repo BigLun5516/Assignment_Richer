@@ -14,10 +14,15 @@ public class MeanCard extends Card {
         float allMoney = 0;
         int playerNum = players.size();
         for (int i = 0; i < playerNum; i++) {
-            allMoney += players.get(i).getMoney();
+            if (!players.get(i).isOut()) {
+                allMoney += players.get(i).getMoney();
+            }
         }
+        int survivalNum = PlayerMgr.getInstance().getSurvivalNum();
         for (int i = 0; i < playerNum; i++) {
-            players.get(i).setMoney(allMoney / playerNum);
+            if (!players.get(i).isOut()) {
+                players.get(i).setMoney(allMoney / survivalNum);
+            }
         }
     }
 

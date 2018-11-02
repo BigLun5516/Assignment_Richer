@@ -1,6 +1,7 @@
 package prop;
 
 import player.Player;
+import prop.Vistor.FlyCardVistor;
 import prop.state.FlyCardState;
 
 public class FlyCard extends Card {
@@ -10,7 +11,7 @@ public class FlyCard extends Card {
 
     @Override
     public void execute(Player me) {
-        target.addState(new FlyCardState());
+        target.getIdentity().accept(new FlyCardVistor(), me);
     }
 
     private Player target;

@@ -6,7 +6,9 @@ public class ExFlyCardState extends State {
     public ExFlyCardState(){
         duration = 2;
     }
-
+    public ExFlyCardState(int duration){
+        this.duration = duration;
+    }
     @Override
     public String getFeature() {
         return "IgnoreBar";

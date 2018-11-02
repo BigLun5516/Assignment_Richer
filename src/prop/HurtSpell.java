@@ -1,7 +1,7 @@
 package prop;
 
 import player.Player;
-import prop.state.HurtSpellState;
+import prop.Vistor.HurtSpellVistor;
 
 public class HurtSpell extends Spell {
     public HurtSpell(Player target){
@@ -10,7 +10,7 @@ public class HurtSpell extends Spell {
 
     @Override
     public void execute(Player player) {
-        target.addState(new HurtSpellState());
+        target.getIdentity().accept(new HurtSpellVistor(), player);
     }
 
     private Player target;

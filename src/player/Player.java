@@ -2,6 +2,7 @@ package player;
 
 import block.Block;
 import map.MapMgr;
+import player.Identity.Identity;
 import prop.Prop;
 import prop.state.State;
 
@@ -35,6 +36,8 @@ public abstract class Player {
     protected int tempMoveDistance;
 
     protected boolean isOut = false;
+
+    protected Identity identity;
 
     private int id;
     protected Vector<State> states = new Vector<>();
@@ -124,5 +127,13 @@ public abstract class Player {
 
     public void setOut(boolean out) {
         isOut = out;
+    }
+
+    public Identity getIdentity() {
+        return identity;
+    }
+
+    public void setIdentity(Identity identity) {
+        this.identity = identity;
     }
 }

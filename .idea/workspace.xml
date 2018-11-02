@@ -2,23 +2,60 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/prop/state/ExFlyCardState.java" line="6" />
-    <bookmark url="file://$PROJECT_DIR$/src/player/PlayerMgr.java" line="73" />
-    <bookmark url="file://$PROJECT_DIR$/src/player/AutoPlayer.java" line="61" />
+    <bookmark url="file://$PROJECT_DIR$/src/player/PlayerMgr.java" line="75" />
+    <bookmark url="file://$PROJECT_DIR$/src/player/AutoPlayer.java" line="63" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14e3ee0f-814d-40cd-9eca-ed4a7c28e3a3" name="Default Changelist" comment="">
+    <list default="true" id="14e3ee0f-814d-40cd-9eca-ed4a7c28e3a3" name="Default Changelist" comment="作业05 第七题已完成">
+      <change afterPath="$PROJECT_DIR$/src/iterator/CppIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/player/Identity/BaiFuMei.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/player/Identity/GaoFuShuai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/player/Identity/Identity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/ExFlyCardVistor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/FlyCardVistor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/FreezeSpellVistor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/HurtSpellVistor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/LuckCardVistor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/ReturnSpellVistor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/RobCardVistor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/SuperCardVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/Vistor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/Player/AutoPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/Player/AutoPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/Player/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/Player/HumanPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/Player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/Player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/Player/PlayerMgr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/Player/PlayerMgr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/block/BlockManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/block/BlockManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/block/TripBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/block/TripBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/map/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/map/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/map/MapImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/map/MapImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/map/MapImpWithPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/map/MapImpWithPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/menu/PlayMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/menu/PlayMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/prop/MeanCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/prop/MeanCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/prop/Prop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/prop/Prop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/prop/ReturnSpell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/prop/ReturnSpell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/prop/RobCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/prop/RobCard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player/AutoPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/BlockManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/BlockManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/block/TripBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/block/TripBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/MapImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MapImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/MapImpWithPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MapImpWithPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/PlayMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/PlayMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/AutoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/AutoPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/HumanPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/PlayerMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/PlayerMgr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/ExFlyCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/ExFlyCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/FlyCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/FlyCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/FreezeSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/FreezeSpell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/HurtSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/HurtSpell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/LuckCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/LuckCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/MeanCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/MeanCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/Prop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/Prop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/ReturnSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/ReturnSpell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/RobCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/RobCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/SuperCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/SuperCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/state/ExFlyCardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/ExFlyCardState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/state/FlyCardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/FlyCardState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/state/FreezeSpellState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/FreezeSpellState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/state/HurtSpellState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/HurtSpellState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/state/LuckCardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/LuckCardState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prop/state/SuperCardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/SuperCardState.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +67,10 @@
     <session id="2074171554">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
@@ -39,31 +78,31 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="170" />
+          <entry key="java" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="170" />
+          <entry key="JAVA" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="20" />
-          <entry key="java" value="4937" />
-          <entry key="txt" value="16" />
+          <entry key="dummy" value="46" />
+          <entry key="java" value="6117" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4937" />
-          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="JAVA" value="6117" />
+          <entry key="PLAIN_TEXT" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -74,70 +113,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/player/PlayerMgr.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterator/JavaIterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="80" column="38" lean-forward="true" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2348#2349#0" expanded="true" />
-                <element signature="e#2384#2385#0" expanded="true" />
-                <element signature="e#1570#1571#0" expanded="true" />
-                <element signature="e#1607#1608#0" expanded="true" />
-                <element signature="e#1668#1669#0" expanded="true" />
-                <element signature="e#1720#1721#0" expanded="true" />
-              </folding>
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/player/Player.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iterator/CppIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1536#1537#0" expanded="true" />
-                <element signature="e#1576#1577#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/player/HumanPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/block/TripBlock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/player/AutoPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/menu/PlayMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="139" column="22" lean-forward="true" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+            <state relative-caret-position="525">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -164,19 +153,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/prop/state/FreezeSpell.java" />
-        <option value="$PROJECT_DIR$/src/prop/FlyCard.java" />
-        <option value="$PROJECT_DIR$/src/prop/FreezeSpell.java" />
-        <option value="$PROJECT_DIR$/src/prop/HurtSpell.java" />
-        <option value="$PROJECT_DIR$/src/prop/state/LuckCard.java" />
-        <option value="$PROJECT_DIR$/src/prop/LuckCard.java" />
-        <option value="$PROJECT_DIR$/src/prop/state/ExFlyCard.java" />
-        <option value="$PROJECT_DIR$/src/prop/ExFlyCard.java" />
-        <option value="$PROJECT_DIR$/src/block/Block.java" />
         <option value="$PROJECT_DIR$/src/block/MoneyBlock.java" />
         <option value="$PROJECT_DIR$/src/block/LinkedBlock.java" />
         <option value="$PROJECT_DIR$/src/prop/state/SuperCard.java" />
-        <option value="$PROJECT_DIR$/src/prop/SuperCard.java" />
         <option value="$PROJECT_DIR$/src/block/EBlock.java" />
         <option value="$PROJECT_DIR$/src/block/FBlock.java" />
         <option value="$PROJECT_DIR$/src/block/BarBlock.java" />
@@ -184,23 +163,47 @@
         <option value="$PROJECT_DIR$/src/player/MoveStrategy1.java" />
         <option value="$PROJECT_DIR$/src/prop/state/State.java" />
         <option value="$PROJECT_DIR$/src/player/MoveStrategy3.java" />
-        <option value="$PROJECT_DIR$/src/prop/state/LuckCardState.java" />
-        <option value="$PROJECT_DIR$/src/prop/state/SuperCardState.java" />
-        <option value="$PROJECT_DIR$/src/prop/state/HurtSpellState.java" />
-        <option value="$PROJECT_DIR$/src/prop/state/FlyCardState.java" />
-        <option value="$PROJECT_DIR$/src/prop/state/ExFlyCardState.java" />
-        <option value="$PROJECT_DIR$/src/prop/state/FreezeSpellState.java" />
-        <option value="$PROJECT_DIR$/src/prop/Prop.java" />
         <option value="$PROJECT_DIR$/src/block/BlockManager.java" />
         <option value="$PROJECT_DIR$/src/map/MapImpWithPlayer.java" />
         <option value="$PROJECT_DIR$/src/map/MapImp.java" />
         <option value="$PROJECT_DIR$/src/map/Map.java" />
         <option value="$PROJECT_DIR$/src/block/TripBlock.java" />
-        <option value="$PROJECT_DIR$/src/player/PlayerMgr.java" />
-        <option value="$PROJECT_DIR$/src/player/AutoPlayer.java" />
-        <option value="$PROJECT_DIR$/src/player/HumanPlayer.java" />
         <option value="$PROJECT_DIR$/src/menu/PlayMenu.java" />
+        <option value="$PROJECT_DIR$/src/player/Identity.java" />
+        <option value="$PROJECT_DIR$/src/prop/state/SuperCardState.java" />
+        <option value="$PROJECT_DIR$/src/prop/state/LuckCardState.java" />
+        <option value="$PROJECT_DIR$/src/prop/state/HurtSpellState.java" />
+        <option value="$PROJECT_DIR$/src/prop/state/FreezeSpellState.java" />
+        <option value="$PROJECT_DIR$/src/prop/state/FlyCardState.java" />
+        <option value="$PROJECT_DIR$/src/prop/state/ExFlyCardState.java" />
+        <option value="$PROJECT_DIR$/src/prop/Vistor/Vistor.java" />
+        <option value="$PROJECT_DIR$/src/prop/Vistor/RobCardVistor.java" />
+        <option value="$PROJECT_DIR$/src/player/Identity/Identity.java" />
+        <option value="$PROJECT_DIR$/src/prop/Prop.java" />
+        <option value="$PROJECT_DIR$/src/prop/RobCard.java" />
+        <option value="$PROJECT_DIR$/src/player/Identity/GaoFuShuai.java" />
+        <option value="$PROJECT_DIR$/src/player/Identity/BaiFuMei.java" />
         <option value="$PROJECT_DIR$/src/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/prop/MeanCard.java" />
+        <option value="$PROJECT_DIR$/src/prop/Vistor/ExFlyCardVistor.java" />
+        <option value="$PROJECT_DIR$/src/prop/ExFlyCard.java" />
+        <option value="$PROJECT_DIR$/src/prop/Vistor/FlyCardVistor.java" />
+        <option value="$PROJECT_DIR$/src/prop/FlyCard.java" />
+        <option value="$PROJECT_DIR$/src/prop/Vistor/FreezeSpellVistor.java" />
+        <option value="$PROJECT_DIR$/src/prop/FreezeSpell.java" />
+        <option value="$PROJECT_DIR$/src/prop/Vistor/HurtVistor.java" />
+        <option value="$PROJECT_DIR$/src/prop/HurtSpell.java" />
+        <option value="$PROJECT_DIR$/src/prop/Vistor/LuckCardVistor.java" />
+        <option value="$PROJECT_DIR$/src/prop/LuckCard.java" />
+        <option value="$PROJECT_DIR$/src/prop/Vistor/MeanCardVistor.java" />
+        <option value="$PROJECT_DIR$/src/prop/Vistor/ReturnSpellVistor.java" />
+        <option value="$PROJECT_DIR$/src/prop/ReturnSpell.java" />
+        <option value="$PROJECT_DIR$/src/prop/Vistor/SuperCardVisitor.java" />
+        <option value="$PROJECT_DIR$/src/prop/SuperCard.java" />
+        <option value="$PROJECT_DIR$/src/player/PlayerMgr.java" />
+        <option value="$PROJECT_DIR$/src/player/HumanPlayer.java" />
+        <option value="$PROJECT_DIR$/src/player/AutoPlayer.java" />
+        <option value="$PROJECT_DIR$/src/iterator/CppIterator.java" />
       </list>
     </option>
   </component>
@@ -225,7 +228,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,6 +256,12 @@
               <item name="Richer_lql" type="b2602c69:ProjectViewProjectNode" />
               <item name="Richer_lql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="iterator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Richer_lql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Richer_lql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -272,6 +280,13 @@
               <item name="Richer_lql" type="b2602c69:ProjectViewProjectNode" />
               <item name="Richer_lql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="Identity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Richer_lql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Richer_lql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="prop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -281,25 +296,39 @@
               <item name="prop" type="462c0819:PsiDirectoryNode" />
               <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Richer_lql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Richer_lql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="prop" type="462c0819:PsiDirectoryNode" />
+              <item name="Vistor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="iterator" />
+      <recent name="prop.Vistor" />
+      <recent name="player.Identity" />
       <recent name="prop.state" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="player.Identity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,7 +371,9 @@
       <workItem from="1540996901025" duration="1960000" />
       <workItem from="1540999072679" duration="150000" />
       <workItem from="1541041315236" duration="341000" />
-      <workItem from="1541073090638" duration="14797000" />
+      <workItem from="1541073090638" duration="14870000" />
+      <workItem from="1541151592795" duration="10545000" />
+      <workItem from="1541173553403" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="作业05 第六题已完成">
       <created>1541041537686</created>
@@ -351,17 +382,24 @@
       <option name="project" value="LOCAL" />
       <updated>1541041537686</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="作业05 第七题已完成">
+      <created>1541089327074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541089327074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43430000" />
+    <option name="totallyTimeSpent" value="54802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964539" visible="true" weight="0.20978552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964539" visible="true" weight="0.21514745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5035461" side_tool="true" weight="0.20978552" />
@@ -402,7 +440,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="作业05 第六题已完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="作业05 第六题已完成" />
+    <MESSAGE value="作业05 第七题已完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="作业05 第七题已完成" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -478,246 +517,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/prop/MeanCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/FreezeSpell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/HurtSpell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/FlyCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/LuckCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/ExFlyCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/SuperCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/block/FBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk1.8.0_144/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/MoveStrategy1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/MoveStrategy2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu/MenuDecoratorWithMusic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/state/SuperCardState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu/LoadMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu/PlayersMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/MoveStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/block/SlideBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/block/BarBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" selection-start-line="7" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/state/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/state/LuckCardState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/state/HurtSpellState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/state/FreezeSpellState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/state/ExFlyCardState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/Prop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/block/EBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/state/FlyCardState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/block/MoneyBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/block/LinkedBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/block/Block.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -807,66 +606,366 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/prop/RobCard.java">
+    <entry file="file://$PROJECT_DIR$/src/block/TripBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/AutoPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="294">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/menu/PlayMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="139" column="22" lean-forward="true" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+        <state relative-caret-position="2772">
+          <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/player/Identity.java" />
+    <entry file="file://$PROJECT_DIR$/src/prop/state/FreezeSpellState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="168">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/state/HurtSpellState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/state/SuperCardState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/Vistor/Vistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/Identity/Identity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/Identity/GaoFuShuai.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/Identity/BaiFuMei.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/Vistor/RobCardVistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/state/ExFlyCardState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/Vistor/ExFlyCardVistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/ExFlyCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/Prop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/FreezeSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/Vistor/FreezeSpellVistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/HurtSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/Vistor/HurtSpellVistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/FlyCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/LuckCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/MeanCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/Vistor/MeanCardVistor.java" />
+    <entry file="file://$PROJECT_DIR$/src/prop/Vistor/LuckCardVistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/ReturnSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/SuperCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/Vistor/SuperCardVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/Vistor/ReturnSpellVistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/RobCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/state/FlyCardState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/Vistor/FlyCardVistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/state/LuckCardState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prop/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/player/HumanPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="336">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/block/TripBlock.java">
+    <entry file="file://$PROJECT_DIR$/src/player/AutoPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="135" column="48" selection-start-line="135" selection-start-column="48" selection-end-line="135" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
+            <element signature="e#2733#2734#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/player/PlayerMgr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="80" column="38" lean-forward="true" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        <state relative-caret-position="441">
+          <caret line="108" column="34" lean-forward="true" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2348#2349#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1607#1608#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/JavaIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/CppIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>

@@ -5,6 +5,8 @@ import block.BlockManager;
 import block.TripBlock;
 import global.BlockID;
 import map.MapMgr;
+import player.Identity.BaiFuMei;
+import player.Identity.GaoFuShuai;
 
 import java.util.Vector;
 
@@ -87,9 +89,16 @@ public class PlayerMgr {
 
     private PlayerMgr(){
         players = new Vector<>();
-        players.add(new HumanPlayer());
-        players.add(new AutoPlayer());
-        players.add(new AutoPlayer());
+        Player player1 = new HumanPlayer();
+        Player player2 = new AutoPlayer();
+        Player player3 = new AutoPlayer();
+        player1.setIdentity(new GaoFuShuai(player1));
+        player2.setIdentity(new GaoFuShuai(player2));
+        player3.setIdentity(new BaiFuMei(player3));
+
+        players.add(player1);
+        players.add(player2);
+        players.add(player3);
 
     }
 

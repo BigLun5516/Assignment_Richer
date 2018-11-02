@@ -1,6 +1,8 @@
 package prop;
 
+import player.Identity.Identity;
 import player.Player;
+import prop.Vistor.RobCardVistor;
 
 public class RobCard extends Card {
     public RobCard(Player target){
@@ -9,11 +11,7 @@ public class RobCard extends Card {
 
     @Override
     public void execute(Player me) {
-        System.out.println("使用RobCard");
-        float targetMoney = target.getMoney();
-        float myMoney = me.getMoney();
-        me.setMoney(myMoney + targetMoney / 2);
-        target.setMoney(targetMoney - targetMoney / 2);
+        target.getIdentity().accept(new RobCardVistor(), me);
     }
 
     private Player target;

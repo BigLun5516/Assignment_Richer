@@ -6,6 +6,9 @@ public class SuperCardState extends State {
     public SuperCardState(){
         duration = 1;
     }
+    public SuperCardState(int duration){
+        this.duration = duration;
+    }
 
     @Override
     public void execute(Player player) {

@@ -5,11 +5,13 @@ import global.MenuID;
 import map.MapMgr;
 import menu.MenuMgr;
 import outdevice.StreamDevice;
+import player.Identity.Identity;
 
 public class HumanPlayer extends Player {
     public HumanPlayer(){
         moveDistance = 3;
         defaultMoveDistance = 3;
+
     }
 
     @Override

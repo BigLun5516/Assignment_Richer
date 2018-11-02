@@ -1,6 +1,7 @@
 package prop;
 
 import player.Player;
+import prop.Vistor.ExFlyCardVistor;
 import prop.state.ExFlyCardState;
 
 public class ExFlyCard extends Card {
@@ -10,7 +11,7 @@ public class ExFlyCard extends Card {
 
     @Override
     public void execute(Player player) {
-        target.addState(new ExFlyCardState());
+        target.getIdentity().accept(new ExFlyCardVistor(), player);
     }
 
     private Player target;
