@@ -15,13 +15,17 @@ public class CppIterator<T> {
         }
     }
 
+    public boolean isLast(){
+        if (index == vector.size() - 1){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public T next(){
         return vector.get(++index);
     }
-
-
-
-
 
     public int count(){
         return vector.size();

@@ -1,61 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/prop/state/ExFlyCardState.java" line="6" />
-    <bookmark url="file://$PROJECT_DIR$/src/player/PlayerMgr.java" line="75" />
-    <bookmark url="file://$PROJECT_DIR$/src/player/AutoPlayer.java" line="63" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="14e3ee0f-814d-40cd-9eca-ed4a7c28e3a3" name="Default Changelist" comment="作业05 第七题已完成">
-      <change afterPath="$PROJECT_DIR$/src/iterator/CppIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/player/Identity/BaiFuMei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/player/Identity/GaoFuShuai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/player/Identity/Identity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/ExFlyCardVistor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/FlyCardVistor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/FreezeSpellVistor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/HurtSpellVistor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/LuckCardVistor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/ReturnSpellVistor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/RobCardVistor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/SuperCardVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prop/Vistor/Vistor.java" afterDir="false" />
+    <list default="true" id="14e3ee0f-814d-40cd-9eca-ed4a7c28e3a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/Player/AutoPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/Player/AutoPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/Player/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/Player/HumanPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/Player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/Player/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/Player/PlayerMgr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/Player/PlayerMgr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/block/BlockManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/block/BlockManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/block/TripBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/block/TripBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/map/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/map/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/map/MapImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/map/MapImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/map/MapImpWithPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/map/MapImpWithPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/menu/PlayMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/menu/PlayMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/prop/MeanCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/prop/MeanCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/prop/Prop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/prop/Prop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/prop/ReturnSpell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/prop/ReturnSpell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Richer_lql/prop/RobCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Richer_lql/prop/RobCard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player/AutoPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/AutoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/AutoPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/PlayerMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/PlayerMgr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/ExFlyCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/ExFlyCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/FlyCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/FlyCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/FreezeSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/FreezeSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/HurtSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/HurtSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/LuckCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/LuckCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/MeanCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/MeanCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/Prop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/Prop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/ReturnSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/ReturnSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/RobCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/RobCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/SuperCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/SuperCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/state/ExFlyCardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/ExFlyCardState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/state/FlyCardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/FlyCardState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/state/FreezeSpellState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/FreezeSpellState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/state/HurtSpellState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/HurtSpellState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/state/LuckCardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/LuckCardState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prop/state/SuperCardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop/state/SuperCardState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player/Identity/BaiFuMei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Identity/BaiFuMei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player/Identity/GaoFuShuai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Identity/GaoFuShuai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player/Identity/Identity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Identity/Identity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/CppIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iterator/CppIterator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,10 +19,10 @@
     <session id="2074171554">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
@@ -78,31 +30,31 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="238" />
+          <entry key="java" value="239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="238" />
+          <entry key="JAVA" value="239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="46" />
-          <entry key="java" value="6117" />
-          <entry key="txt" value="17" />
+          <entry key="java" value="6195" />
+          <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6117" />
-          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="JAVA" value="6195" />
+          <entry key="PLAIN_TEXT" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -117,16 +69,28 @@
         <entry file="file://$PROJECT_DIR$/src/iterator/JavaIterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterator/CppIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iterator/CppIterator.java">
+        <entry file="file://$PROJECT_DIR$/src/player/PlayerMgr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="357">
+              <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -373,7 +337,8 @@
       <workItem from="1541041315236" duration="341000" />
       <workItem from="1541073090638" duration="14870000" />
       <workItem from="1541151592795" duration="10545000" />
-      <workItem from="1541173553403" duration="754000" />
+      <workItem from="1541173553403" duration="918000" />
+      <workItem from="1541212858606" duration="904000" />
     </task>
     <task id="LOCAL-00001" summary="作业05 第六题已完成">
       <created>1541041537686</created>
@@ -389,17 +354,24 @@
       <option name="project" value="LOCAL" />
       <updated>1541089327074</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="作业05 除了迭代器全部完成">
+      <created>1541174358157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541174358157</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54802000" />
+    <option name="totallyTimeSpent" value="55870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964539" visible="true" weight="0.21514745" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964539" visible="true" weight="0.21782842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5035461" side_tool="true" weight="0.20978552" />
@@ -413,7 +385,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -441,7 +413,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="作业05 第六题已完成" />
     <MESSAGE value="作业05 第七题已完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="作业05 第七题已完成" />
+    <MESSAGE value="作业05 除了迭代器全部完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="作业05 除了迭代器全部完成" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -945,27 +918,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/PlayerMgr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="108" column="34" lean-forward="true" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iterator/JavaIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iterator/CppIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="483">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/PlayerMgr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
